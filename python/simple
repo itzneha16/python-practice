@@ -1,0 +1,25 @@
+def chatbot():
+    print(''' 
+        \\\\\\\\\\\\\\\\\\\\\\
+         Wel-Come 2 Chatbot
+        \\\\\\\\\\\\\\\\\\\\\\\
+          ''')
+    username = (input("Enter you username:-"))
+    print('''
+           -||||||||||||-
+        - Press Hi to Chat -
+           -||||||||||||-
+          ''')
+    msg = input("START CHAT - ")
+    print(msg)
+    print(type(msg))
+    
+    if msg !="hi":
+        print("RE-RUN the program")
+    elif msg == "hi":
+        print("Hii",username)
+        msg = input()
+    else:
+        print("404 $ERROR")
+        
+chatbot()

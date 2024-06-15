@@ -1,0 +1,10 @@
+num={22,44,55,66}
+print(num)
+num.add(11)
+print(num) 
+num2={8,9,22,55,99,10}
+print(num2)
+new_set=num.union(num2)
+print(new_set)
+list1=list(new_set)
+print(list1)
